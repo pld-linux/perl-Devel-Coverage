@@ -5,7 +5,7 @@ Summary:	Devel::Coverage - Perl module to perform coverage analysis
 Summary(pl):	Devel::Coverage - modu³ Perla do wykonywania analizy pokrycia
 Name:		perl-Devel-Coverage
 Version:	0.2
-Release:	7
+Release:	8
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

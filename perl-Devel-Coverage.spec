@@ -5,7 +5,7 @@ Summary:	Devel::Coverage perl module
 Summary(pl):	Modu³ perla Devel::Coverage
 Name:		perl-Devel-Coverage
 Version:	0.2
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

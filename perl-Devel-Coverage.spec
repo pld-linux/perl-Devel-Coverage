@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	Coverage
-Summary:	Devel-Coverage perl module
-Summary(pl):	Modu³ perla Devel-Coverage
+Summary:	Devel::Coverage perl module
+Summary(pl):	Modu³ perla Devel::Coverage
 Name:		perl-Devel-Coverage
 Version:	0.2
 Release:	6
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel-Coverage - perl module to perform coverage analysis.
+Devel::Coverage - perl module to perform coverage analysis.
 
 %description -l pl
-Modu³ perla Devel-Coverage.
+Modu³ perla Devel::Coverage.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

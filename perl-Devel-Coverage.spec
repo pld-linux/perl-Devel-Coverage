@@ -2,8 +2,8 @@
 Summary:	Devel-Coverage perl module
 Summary(pl):	Modu³ perla Devel-Coverage
 Name:		perl-Devel-Coverage
-Version:	0.1
-Release:	3
+Version:	0.2
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
@@ -36,7 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Devel/Coverage
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man[13]/* \

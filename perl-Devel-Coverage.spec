@@ -14,7 +14,7 @@ BuildRequires:	perl-Storable
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 Requires:	perl-Storable
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Devel-Coverage - perl module to perform coverage analysis.

@@ -23,7 +23,7 @@ coverage enabled.
 
 %description -l pl
 Modu³ Perla Devel::Coverage s³u¿y do wykonywania analizy pokrycia.
-Jest to wci±¿ oprogramowania we wczwsnej fazie rozwoju (alpha).
+Jest to wci±¿ oprogramowania we wczesnej fazie rozwoju (alpha).
 Narzêdzie "cover-perl" s³u¿y do analizy plików bêd±cych wynikiem
 dzia³ania skryptów z w³±czonym pokryciem.
 

@@ -12,8 +12,6 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Devel/Devel-Coverage-%{ve
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Storable
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 Requires:	perl-Storable
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

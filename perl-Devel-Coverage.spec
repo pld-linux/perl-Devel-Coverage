@@ -3,7 +3,7 @@ Summary:	Devel-Coverage perl module
 Summary(pl):	Modu³ perla Devel-Coverage
 Name:		perl-Devel-Coverage
 Version:	0.2
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,6 +13,7 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Storable
 Requires:	perl-Storable
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

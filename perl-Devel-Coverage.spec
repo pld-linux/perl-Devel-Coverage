@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	Coverage
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel-Coverage perl module
 Summary(pl):	Modu³ perla Devel-Coverage
 Name:		perl-Devel-Coverage
 Version:	0.2
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Devel-Coverage - perl module to perform coverage analysis.
 Modu³ perla Devel-Coverage.
 
 %prep
-%setup -q -n Devel-Coverage-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL

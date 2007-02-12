@@ -2,7 +2,7 @@
 %define		pdir	Devel
 %define		pnam	Coverage
 Summary:	Devel::Coverage - Perl module to perform coverage analysis
-Summary(pl):	Devel::Coverage - modu³ Perla do wykonywania analizy pokrycia
+Summary(pl.UTF-8):   Devel::Coverage - moduÅ‚ Perla do wykonywania analizy pokrycia
 Name:		perl-Devel-Coverage
 Version:	0.2
 Release:	9
@@ -21,11 +21,11 @@ software is still very early-alpha quality. Use the tool "cover-perl"
 to analyze the files that result from running your scripts with
 coverage enabled.
 
-%description -l pl
-Modu³ Perla Devel::Coverage s³u¿y do wykonywania analizy pokrycia.
-Jest to wci±¿ oprogramowanie we wczesnej fazie rozwoju (alpha).
-Narzêdzie "cover-perl" s³u¿y do analizy plików bêd±cych wynikiem
-dzia³ania skryptów z w³±czonym pokryciem.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Devel::Coverage sÅ‚uÅ¼y do wykonywania analizy pokrycia.
+Jest to wciÄ…Å¼ oprogramowanie we wczesnej fazie rozwoju (alpha).
+NarzÄ™dzie "cover-perl" sÅ‚uÅ¼y do analizy plikÃ³w bÄ™dÄ…cych wynikiem
+dziaÅ‚ania skryptÃ³w z wÅ‚Ä…czonym pokryciem.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

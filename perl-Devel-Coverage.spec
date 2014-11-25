@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Devel
 %define		pnam	Coverage
+%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::Coverage - Perl module to perform coverage analysis
 Summary(pl.UTF-8):	Devel::Coverage - moduł Perla do wykonywania analizy pokrycia
 Name:		perl-Devel-Coverage
@@ -10,8 +10,9 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a062ec329629e5d706a3543e30bdd338
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Devel-Coverage/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

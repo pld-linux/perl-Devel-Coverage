@@ -1,6 +1,5 @@
 %define		pdir	Devel
 %define		pnam	Coverage
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::Coverage - Perl module to perform coverage analysis
 Summary(pl.UTF-8):	Devel::Coverage - moduł Perla do wykonywania analizy pokrycia
 Name:		perl-Devel-Coverage

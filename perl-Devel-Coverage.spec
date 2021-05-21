@@ -7,11 +7,11 @@ Version:	0.2
 Release:	10
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Devel/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a062ec329629e5d706a3543e30bdd338
-URL:		http://search.cpan.org/dist/Devel-Coverage/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -50,4 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/coverperl
 %{perl_vendorlib}/Devel/Coverage.pm
 %{perl_vendorlib}/Devel/Coverage
-%{_mandir}/man[13]/*
+%{_mandir}/man1/coverperl.1p*
+%{_mandir}/man3/Devel::Coverage*.3pm*
